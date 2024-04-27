@@ -3,7 +3,7 @@ import postRoute from "./route/post.route.js";
 import authRoute from "./route/auth.route.js";
 
 const app = express();
-
+app.use(express.json());
 
 // console.log("test");
 
